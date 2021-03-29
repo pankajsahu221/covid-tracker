@@ -1,0 +1,31 @@
+.App {
+    text-align: center;
+}
+.linegraph{
+    width: 600px;
+    height: 350px;
+    margin: 40px auto;
+    /* background: purple; */
+}
+.flex-row{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.card{
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 0 0 10px 0 #eee;
+  border-radius: 6px;
+  border: 1px solid #cecece;
+  transition: all 0.3s ease;
+}
+.card:hover{
+  box-shadow: 10px 10px 20px 0 #eee;
+  transition: all 0.3s ease;
+}
+.hor-line{
+   height: 10px;
+   width: 40px;
+   background: rgba(85, 85, 255, 0.158);
+}
